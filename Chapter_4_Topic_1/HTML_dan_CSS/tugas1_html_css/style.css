@@ -4,8 +4,11 @@ body {
 .tabel1 {
   border: 5px solid;
   border-radius: 20px;
-  margin-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
+  display: block;
+  width: 500px;
 }
 
 .boxBiodata {
@@ -42,4 +45,24 @@ body {
   padding-top: 20px;
   box-shadow: 10px 10px grey;
   background-color: white;
+}
+
+.skill {
+  border: 5px solid goldenrod;
+  margin: 20px;
+  border-radius: 20px;
+  width: 500px;
+  height: 200px;
+  padding-left: 10px;
+  margin-top: 50px;
+  box-shadow: 10px 10px grey;
+  background-color: white;
+}
+
+.videoCall {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
+  width: 150px;
+  float: left;
 }
