@@ -1,0 +1,45 @@
+body {
+  background-image: url("background.jpg");
+}
+.tabel1 {
+  border: 5px solid;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.boxBiodata {
+  border: 5px solid red;
+  margin: 20px;
+  border-radius: 20px;
+  width: 500px;
+  height: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
+  box-shadow: 10px 10px grey;
+  background-color: white;
+}
+
+.sekolah {
+  border: 5px solid blueviolet;
+  margin: 20px;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  padding-left: 10px;
+  padding-top: 20px;
+  box-shadow: 10px 10px grey;
+  background-color: white;
+}
+
+.mottoHidup {
+  border: 5px solid rgb(129, 129, 41);
+  margin: 20px;
+  border-radius: 20px;
+  width: 450px;
+  height: 200px;
+  padding-left: 10px;
+  padding-top: 20px;
+  box-shadow: 10px 10px grey;
+  background-color: white;
+}

@@ -1,0 +1,3 @@
+class Makanan {
+  constructor(name) {}
+}
