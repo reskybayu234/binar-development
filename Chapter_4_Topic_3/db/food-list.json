@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Nasi Goreng",
+    "type": "Special",
+    "price": 10000
+  },
+  {
+    "name": "Mie Goreng",
+    "type": "Special",
+    "price": 10000
+  }
+]
