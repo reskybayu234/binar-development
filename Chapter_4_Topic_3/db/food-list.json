@@ -1,10 +1,12 @@
 [
   {
+    "id": 1,
     "name": "Nasi Goreng",
     "type": "Special",
     "price": 10000
   },
   {
+    "id": 2,
     "name": "Mie Goreng",
     "type": "Special",
     "price": 10000

@@ -26,4 +26,6 @@ app.post("/api/v1/mahasiswa", (req, res) => {
   res.status(201).json(mahasiswa);
 });
 
+app.put("/api/v1/mahasiswa/:id", (req, res) => {});
+
 app.listen(port, () => console.log("Server Berjalan"));
