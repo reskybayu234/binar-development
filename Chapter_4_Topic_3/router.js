@@ -6,11 +6,11 @@ router.use(function timeLog(req, res, next) {
   next();
 });
 
-router.get("/", function (req, res) {
+router.get("/birds", function (req, res) {
   res.send("Birds home page");
 });
 
-router.get("/about", function (req, res) {
+router.get("/aboutBirds", function (req, res) {
   res.send("About Birds");
 });
 
