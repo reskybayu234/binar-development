@@ -3,6 +3,13 @@ const router = require("./router");
 const app = express();
 const port = 3000;
 
+// ============
+// VIEW ENGINE
+// ============
+app.set("view engine", "ejs");
+app.get("/cobaejs", (req, res) => {
+  res.render("index");
+});
 // ============================
 // MIDDLEWARE        MIDDLEWARE
 // ============================
@@ -84,7 +91,27 @@ app.get("/users", (req, res) => {
     },
   ]);
 });
-app.get("");
+app.get("/greet", (req, res) => {
+  const name = req.query.name || "bayu";
+  res.render("greet", { name });
+});
+
+app.get("/welcome", (req, res) => {
+  const name = req.query.name;
+  res.render("welcome", { name });
+});
+
+app.get("/register", (req, res) => {
+  res.render("register");
+});
+
+// =============================
+// POST POST POST POST POST POST
+// =============================
+app.post("/register", (req, res) => {
+  const { email, password } = req.body;
+  res.json([email, password]);
+});
 
 app.listen(port, () => {
   console.log("Server Berjalan");
