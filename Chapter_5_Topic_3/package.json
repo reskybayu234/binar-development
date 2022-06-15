@@ -1,0 +1,16 @@
+{
+  "name": "chapter_5_topic_3",
+  "version": "1.0.0",
+  "description": "Belajar ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Resky Bayu Andhika",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.20.1"
+  }
+}
